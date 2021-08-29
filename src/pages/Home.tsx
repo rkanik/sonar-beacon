@@ -46,7 +46,7 @@ const Home: React.FC = () => {
 		<div className='flex flex-col overflow-y-auto bg-green-50 min-h-screen'>
 			<div className='container mx-auto px-5 sm:px-0 py-5 sm:py-6 md:py-7 lg:py-8 xl:py-9 2xl:py-10'>
 				<div>
-					<h1 className='text-4xl'>beacon</h1>
+					<h1 className='text-4xl'>sonar</h1>
 				</div>
 				<div className='max-w-3xl mx-auto '>
 					<div className='text-3xl'>Home</div>

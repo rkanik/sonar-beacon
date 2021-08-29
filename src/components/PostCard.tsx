@@ -19,7 +19,7 @@ const PostCard: React.FC<PostCardProps> = ({ post }) => {
 					{post.content && <div className='mt-2 text-gray-700'>
 						{post.content}
 					</div>}
-					{post.media && <div className='mt-3 rounded-md overflow-hidden'>
+					{post.media && <div className='mt-3 mr-0 md:mr-4'>
 						<img src={post.media as string} alt="Post media" />
 					</div>}
 
